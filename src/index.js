@@ -22,3 +22,8 @@ console.log(container);
 //divの作成
 const divEl = document.createElement("div");
 console.log(divEl);
+
+//HTMLUnkownElementの生成
+//存在しないタグ名を指定
+const nushidaEl = document.createElement("nushida");
+console.log(nushidaEl);
