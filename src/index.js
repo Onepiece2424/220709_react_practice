@@ -30,7 +30,18 @@
 
 //DOMの追加
 //div配下にpタグを追加
+// const divEl = document.createElement("div");
+// const pEl = document.createElement("p");
+// divEl.appendChild(pEl);
+// console.log(divEl);
+
+//div配下にpタグとh2タグの追加
+
 const divEl = document.createElement("div");
 const pEl = document.createElement("p");
+const h2El = document.createElement("h2");
+
 divEl.appendChild(pEl);
+divEl.appendChild(h2El);
+
 console.log(divEl);
