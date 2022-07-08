@@ -17,3 +17,8 @@ console.log(containers);
 //querySelectorを使う
 const container = document.querySelector(".container");
 console.log(container);
+
+//DOMの作成
+//divの作成
+const divEl = document.createElement("div");
+console.log(divEl);
