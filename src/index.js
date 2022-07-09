@@ -15,6 +15,7 @@
 
 //querySelectorによるElementの取得
 //querySelectorを使う
+
 // const container = document.querySelector(".container");
 // console.log(container);
 
