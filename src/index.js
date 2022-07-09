@@ -42,16 +42,14 @@ const onClickAdd = () => {
   button.textContent = "削除";
 
   //ボタンを押したときに行を削除する処理
-  button.addEventListener =
-    ("click",
-    () => {
-      //削除対象の行(li)を取得
-      //closestは親要素に一致する文字列を探すメソッド
-      const deleteTarget = button.closest("li");
+  button.addEventListener("click", () => {
+    //削除対象の行(li)を取得
+    //closestは親要素に一致する文字列を探すメソッド
+    const deleteTarget = button.closest("li");
 
-      //ulタグ配下から上記で特定した行を削除
-      document.getElementById("memo-list").removeChild(deleteTarget);
-    });
+    //ulタグ配下から上記で特定した行を削除
+    document.getElementById("memo-list").removeChild(deleteTarget);
+  });
 
   //divタグ配下にpタグとbuttonタグを設定
   div.appendChild(p);
