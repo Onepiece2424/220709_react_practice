@@ -70,10 +70,16 @@
 
 //DOMの削除
 //h1タグの生成
-const h1El = document.getElementById("title");
+// const h1El = document.getElementById("title");
 
-//divタグの生成
+// //divタグの生成
+// const bodyEl = document.querySelector("body");
+
+// //h1タグの削除
+// bodyEl.removeChild(h1El);
+
+//子要素全てを削除
+//body配下を削除
 const bodyEl = document.querySelector("body");
-
-//h1タグの削除
-bodyEl.removeChild(h1El);
+bodyEl.textContent = null;
+console.log(bodyEl);
