@@ -15,11 +15,3 @@
 
 //querySelectorによるElementの取得
 //querySelectorを使う
-
-// const container = document.querySelector(".container");
-// console.log(container);
-
-//querySelectorAllによるElementの取得
-//querySelectorAllを使う
-const containers = document.querySelectorAll(".containers");
-console.log(containers);
