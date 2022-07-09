@@ -46,11 +46,24 @@
 // console.log(divEl);
 
 //div配下の先頭にpタグとh2タグの追加
-const divEl = document.createElement("div");
-const pEl = document.createElement("p");
-const h2El = document.createElement("h2");
+// const divEl = document.createElement("div");
+// const pEl = document.createElement("p");
+// const h2El = document.createElement("h2");
 
-divEl.prepend(pEl);
-divEl.prepend(h2El);
+// divEl.prepend(pEl);
+// divEl.prepend(h2El);
 
-console.log(divEl);
+// console.log(divEl);
+
+//ボタンの設定
+//buttonタグの生成
+const buttonEl = document.createElement("button");
+
+//ボタンラベルの設定
+buttonEl.textContent = "ボタン";
+
+//エリア1のdivタグの設定
+const divEl = document.querySelector(".container");
+
+//divタグ配下にbuttonタグを追加
+divEl.appendChild(buttonEl);
