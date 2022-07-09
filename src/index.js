@@ -57,13 +57,23 @@
 
 //ボタンの設定
 //buttonタグの生成
-const buttonEl = document.createElement("button");
+// const buttonEl = document.createElement("button");
 
-//ボタンラベルの設定
-buttonEl.textContent = "ボタン";
+// //ボタンラベルの設定
+// buttonEl.textContent = "ボタン";
 
-//エリア1のdivタグの設定
-const divEl = document.querySelector(".container");
+// //エリア1のdivタグの設定
+// const divEl = document.querySelector(".container");
 
-//divタグ配下にbuttonタグを追加
-divEl.appendChild(buttonEl);
+// //divタグ配下にbuttonタグを追加
+// divEl.appendChild(buttonEl);
+
+//DOMの削除
+//h1タグの生成
+const h1El = document.getElementById("title");
+
+//divタグの生成
+const bodyEl = document.querySelector("body");
+
+//h1タグの削除
+bodyEl.removeChild(h1El);
